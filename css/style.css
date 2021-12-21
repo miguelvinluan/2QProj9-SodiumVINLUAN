@@ -81,6 +81,10 @@ section {
   top: 200px;
 }
 
+#index-center-image {
+  top: 10px;
+}
+
 h1 {
   font-size: 180%;
 }
