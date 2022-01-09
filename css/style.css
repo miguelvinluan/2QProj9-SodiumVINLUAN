@@ -184,3 +184,11 @@ footer{
 #references {
   color: #5271ff;
 }
+
+#media-image{
+	background: no-repeat -175px -87px;
+	  
+	width: 40px;
+	  
+	height: 40px;
+}
