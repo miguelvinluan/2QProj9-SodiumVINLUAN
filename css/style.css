@@ -178,25 +178,47 @@ footer{
   margin-left: 5%;
   margin-bottom: -10%;
   position: relative;
-  top: 830px;
+  top: 700px;
 }
 
 #references {
   color: #5271ff;
 }
 
-.media-image {
-	background: url('https://miguelvinluan.github.io/2QProj9-SodiumVINLUAN/images/media-link.png') no-repeat -175px -87px;
-	  
-	width: 40px;
-	  
-	height: 40px; 
+.facebook {
+	background: url('https://miguelvinluan.github.io/2QProj9-SodiumVINLUAN/images/media-link.png') no-repeat -1400px -35px;  
+	width: 125px;  
+	height: 125px; 
 }
 	   
-.media-image:hover { 
-	background: url('https://miguelvinluan.github.io/2QProj9-SodiumVINLUAN/images/media-link.png') no-repeat -175px -14px;
-	  
-	width:40px;
-	  
-	height: 40px; 			   
+.facebook:hover { 
+	background: url('https://miguelvinluan.github.io/2QProj9-SodiumVINLUAN/images/media-link.png') no-repeat -1400px -488px;  
+	width: 125px;  
+	height: 125px; 			   
 }
+
+.twitter {
+	background: url('https://miguelvinluan.github.io/2QProj9-SodiumVINLUAN/images/media-link.png') no-repeat -1250px -339px;  
+	width: 125px;  
+	height: 125px; 
+}
+	   
+.twitter:hover { 
+	background: url('https://miguelvinluan.github.io/2QProj9-SodiumVINLUAN/images/media-link.png') no-repeat -1250px -792px; 
+	width: 125px;  
+	height: 125px; 			   
+}
+
+.instagram {
+	background: url('https://miguelvinluan.github.io/2QProj9-SodiumVINLUAN/images/media-link.png') no-repeat -948px -187px;
+	width: 125px; 
+	height: 125px; 
+	float:
+}
+	   
+.instagram:hover { 
+	background: url('https://miguelvinluan.github.io/2QProj9-SodiumVINLUAN/images/media-link.png') no-repeat -948px -641px;  
+	width: 125px; 
+	height: 125px; 			   
+}
+ 
