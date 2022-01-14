@@ -75,6 +75,14 @@ section {
   padding: 1%;
 }
 
+#index-right-article {
+  margin-top: -70px;
+  position: relative;
+  top: 60px;
+  left: 600px;
+}
+
+
 #index-section-center {
   margin-top: -70px;
   position: relative;
@@ -82,7 +90,34 @@ section {
 }
 
 #index-center-image {
-  top: 10px;
+  top: 30px;
+  position: absolute;
+  z-index: 3;
+  border-style: inset;
+  box-shadow: 5px 5px 10px red, 10px 10px 20px yellow;
+
+}
+
+#index-center-image2 {
+  top: 40px;
+  position: absolute;
+  z-index: 2;
+  border-style: inset;
+  -webkit-transform: rotate(30deg);  /* Chrome, Safari, Opera */
+  -moz-transform: rotate(30deg);  /* Firefox */
+  -ms-transform: rotate(30deg);  /* IE 9 */
+  transform: rotate(30deg);  /* Modern Browsers */    
+}
+
+#index-center-image3 {
+  top: 70px;
+  position: absolute;
+  z-index: 1;
+  border-style: inset;
+  -webkit-transform: rotate(60deg);  /* Chrome, Safari, Opera */
+  -moz-transform: rotate(60deg);  /* Firefox */
+  -ms-transform: rotate(60deg);  /* IE 9 */
+  transform: rotate(60deg);  /* Modern Browsers */
 }
 
 h1 {
@@ -98,6 +133,7 @@ h1 {
   text-align: justify;
   position: relative;
   top: 100px;
+  text-shadow: 5px 5px 10px red;
 }
 
 #index-left-article {
@@ -154,6 +190,7 @@ footer{
 #images {
   float: left;
   clear: left;
+  
 }
 
 #photo {
@@ -170,7 +207,8 @@ footer{
 #paragraph {
   color: #5271ff;
   position: relative;
-  top: 50px
+  top: -100px;
+  left: -50px;
 }
 
 #footer_history {
@@ -183,42 +221,52 @@ footer{
 
 #references {
   color: #5271ff;
+  text-shadow: 5px 5px 10px red;
 }
 
 .facebook {
-	background: url('https://miguelvinluan.github.io/2QProj9-SodiumVINLUAN/images/media-link.png') no-repeat -1400px -35px;  
-	width: 125px;  
-	height: 125px; 
+	background: url('https://miguelvinluan.github.io/2QProj9-SodiumVINLUAN/images/media-link.png') no-repeat -701px -18px;  
+	width: 61px;  
+	height: 61px; 
 }
 	   
 .facebook:hover { 
-	background: url('https://miguelvinluan.github.io/2QProj9-SodiumVINLUAN/images/media-link.png') no-repeat -1400px -488px;  
-	width: 125px;  
-	height: 125px; 			   
+	background: url('https://miguelvinluan.github.io/2QProj9-SodiumVINLUAN/images/media-link.png') no-repeat -701px -244px;  
+	width: 61px;  
+	height: 61px;			   
 }
 
 .twitter {
-	background: url('https://miguelvinluan.github.io/2QProj9-SodiumVINLUAN/images/media-link.png') no-repeat -1250px -339px;  
-	width: 125px;  
-	height: 125px; 
+	background: url('https://miguelvinluan.github.io/2QProj9-SodiumVINLUAN/images/media-link.png') no-repeat -625px -169px;  
+	width: 61px;  
+	height: 61px; 
 }
 	   
 .twitter:hover { 
-	background: url('https://miguelvinluan.github.io/2QProj9-SodiumVINLUAN/images/media-link.png') no-repeat -1250px -792px; 
-	width: 125px;  
-	height: 125px; 			   
+	background: url('https://miguelvinluan.github.io/2QProj9-SodiumVINLUAN/images/media-link.png') no-repeat -625px -395px; 
+	width: 61px;  
+	height: 61px; 			   
 }
 
 .instagram {
-	background: url('https://miguelvinluan.github.io/2QProj9-SodiumVINLUAN/images/media-link.png') no-repeat -948px -187px;
-	width: 125px; 
-	height: 125px; 
-	float:
+	background: url('https://miguelvinluan.github.io/2QProj9-SodiumVINLUAN/images/media-link.png') no-repeat -474px -93px;
+	width: 61px; 
+	height: 61px;
 }
 	   
 .instagram:hover { 
-	background: url('https://miguelvinluan.github.io/2QProj9-SodiumVINLUAN/images/media-link.png') no-repeat -948px -641px;  
-	width: 125px; 
-	height: 125px; 			   
+	background: url('https://miguelvinluan.github.io/2QProj9-SodiumVINLUAN/images/media-link.png') no-repeat -474px -320px;  
+	width: 61px; 
+	height: 61px; 			   
 }
- 
+
+div {
+  float:left;
+}
+
+#index-section-left {
+  top: 50px;
+  left: 50px;
+  float: left;
+  clear: both;
+}
