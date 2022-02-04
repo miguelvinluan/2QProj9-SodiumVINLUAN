@@ -166,6 +166,10 @@ h1 {
   left: 60px;
 }
 
+#effects-right-section {
+  position: relative;	
+}
+
 a {
   color:#5271ff;
   font-style: italic;
