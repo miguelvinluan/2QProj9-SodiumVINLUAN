@@ -167,8 +167,10 @@ h1 {
 }
 
 #effects-right-section {
-  position: relative;
-  margin-right: 100px;  
+ margin-top: -70px;
+ position: relative;
+ top: 60px;
+ left: 600px;
 }
 
 a {
