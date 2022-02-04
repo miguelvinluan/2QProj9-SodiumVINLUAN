@@ -211,6 +211,13 @@ footer{
   left: -50px;
 }
 
+#paragraph_evidence {
+  color: #5271ff;
+  position: relative;
+  top: -50px;
+  left: -50px;
+}
+
 #footer_history {
   color: #5271ff;
   margin-left: 5%;
